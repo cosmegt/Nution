@@ -1,0 +1,24 @@
+{
+  "name": "nution",
+  "version": "1.0.0",
+  "description": "Productivity App",
+  "main": "./src/notion.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cosmegt/Nution.git"
+  },
+  "keywords": [
+    "productivity",
+    "todo",
+    "electron"
+  ],
+  "author": "Cosme Chavez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cosmegt/Nution/issues"
+  },
+  "homepage": "https://github.com/cosmegt/Nution#readme"
+}
