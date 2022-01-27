@@ -2,9 +2,9 @@
   "name": "nution",
   "version": "1.0.0",
   "description": "Productivity App",
-  "main": "./src/notion.js",
+  "main": "./src/nution.js",
   "scripts": {
-    "test": "test"
+    "start": "electron ./src/nution.js"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/cosmegt/Nution/issues"
   },
-  "homepage": "https://github.com/cosmegt/Nution#readme"
+  "homepage": "https://github.com/cosmegt/Nution#readme",
+  "devDependencies": {
+    "electron": "^16.0.7"
+  }
 }
