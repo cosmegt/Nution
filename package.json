@@ -2,9 +2,9 @@
   "name": "nution",
   "version": "1.0.0",
   "description": "Productivity App",
-  "main": "./src/nution.js",
+  "main": "./src/main.js",
   "scripts": {
-    "start": "electron ./src/nution.js"
+    "start": "electron ./src/main.js"
   },
   "repository": {
     "type": "git",
