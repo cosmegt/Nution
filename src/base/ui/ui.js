@@ -16,14 +16,14 @@ class UI {
 
     start(){
         app.whenReady().then( () => {
-            this.createWindow
+            this.createWindow()
 
             app.on("window-all-closed", () => {
-                if (process.platform !== "darwin") app.quit;
+                app.exit(0)
             })
 
             app.on("activate", () => {
-                if (BrowserWindow.getAllWindows().length === 0) this.createWindow;
+                if (BrowserWindow.getAllWindows().length === 0) this.createWindow();
             })
 
         })
@@ -32,11 +32,16 @@ class UI {
     createWindow(){
 
         const win = new BrowserWindow({
-            width: this.options.width || 800,
-            height: this.options.height || 600
-        })
+            minWidth: 850,
+            minHeight: 600,
+            width: 850,
+            height: 600,
+            center: true,
+            backgroundColor: "#fff",
 
-        win.loadFile("index.html");
+        })
+        win.setMenuBarVisibility(false);
+        win.loadFile("./base/ui/index.html");
     }
 
 }

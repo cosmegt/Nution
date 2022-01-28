@@ -1,0 +1,23 @@
+/**
+ * Main.css 
+ *
+*/
+
+/** Typography and global styles**/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+
+/** General styles **/
+
+
+
+/** Sidebar **/
+#sidebar {
+    position: absolute;
+    height: 100%;
+    width: 300px;
+    background-color: rgb(230, 230, 230);
+}
